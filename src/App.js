@@ -141,6 +141,11 @@ function App() {
           value={searchTerm}
           onChange={e => setSearchTerm(e.target.value)}
           placeholder="Search..."
+          onKeyDown={e => {
+            if (e.key === 'Enter') {
+              handleSearch();
+            }
+          }}
         />
         <button class="searchbutton" onClick={handleSearch}>+</button>
       </div>
