@@ -24,7 +24,7 @@ h1 {
 }
 
 .weatherTable {
-  margin: 10px;
+  margin-left: 10px;
   border-collapse: separate;
   border-spacing: 10px 5px;
 }
@@ -47,6 +47,6 @@ h1 {
 
 .errorMsg {
   color: red;
-  font-size: 20px;
+  font-size: 15px;
   margin-left: 20px; 
 }
