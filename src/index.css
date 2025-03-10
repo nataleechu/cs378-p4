@@ -44,3 +44,9 @@ h1 {
   margin-top: 15px;
   border-radius: 5px;
 }
+
+.errorMsg {
+  color: red;
+  font-size: 20px;
+  margin: 20px; 
+}
